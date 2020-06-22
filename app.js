@@ -86,7 +86,7 @@
   exports.main = test
 
   function test(params = {}) {
-    const url = params.__ow_path;
+    const url = params.__ow_path || '/tag';
     const method = params.__ow_method || 'get';
   
     const { promisify } = require('util')
