@@ -2,6 +2,6 @@ all: update
 
 update: 
 	./rezip.sh tags
-	wsk -i action update /guest/sharelatex/tags tags.zip --kind  nodejs:10aspell --web true
+	wsk -i action update /guest/sharelatex/tags tags.zip --kind  nodejs:10 --web true
 
 
