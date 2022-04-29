@@ -22,7 +22,7 @@
     "compile:smoke_tests": "[ ! -e test/smoke/coffee ] &&  echo 'No smoke tests to compile' || coffee -o test/smoke/js -c test/smoke/coffee"
   },
   "dependencies": {
-    "async": "^0.1.22",
+    "async": "^2.6.4",
     "coffee-script": "^1.7.1",
     "express": "3.11.0",
     "logger-sharelatex": "^1.7.0",
